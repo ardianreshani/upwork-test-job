@@ -36,7 +36,7 @@ const Hero = () => {
       </div>
       <div className="hero-container--image">
         <img
-          srcSet={`${avatar480w} 480w, ${avatar} 768w`}
+          srcSet={`${avatar480w} 600w, ${avatar} 768w`}
           src={avatar}
           alt="avatar"
         />

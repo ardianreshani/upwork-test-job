@@ -34,22 +34,24 @@
 
   &--image img {
     position: absolute;
-    bottom: -50px;
+    bottom: -3vh;
     z-index: 3;
+    width: 85%;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 900px) {
   .hero-container {
     height: unset;
     display: flex;
-    padding: 1rem 115px 0rem 115px;
+    padding: 1rem 7.188rem 0rem 7.188rem;
     &--text {
       margin-top: 215px;
     }
     &--image img {
       position: unset;
       padding-top: 1rem;
+      width: unset;
     }
   }
 }
