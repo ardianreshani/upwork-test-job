@@ -1,0 +1,44 @@
+@import "./variabels";
+a {
+  color: $white;
+  font-size: 1.125rem;
+  padding: 0.5rem;
+  font-weight: $font-weight-regular;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+a:hover {
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px);
+  background-color: $yello-text;
+  color: $secondary-color;
+}
+.btn {
+  font-size: 1rem;
+  font-weight: $font-weight-bold;
+  background-color: transparent;
+  color: $white;
+  border: 1px solid $whiteOpacity;
+  border-radius: 12px;
+  padding: 0.8rem 3rem;
+  cursor: pointer;
+  transform-origin: 0 100%;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  -webkit-transform: skew(-10deg);
+  transform: skew(-10deg);
+}
+.btn-outline {
+  margin-left: 6px;
+}
+.active {
+  background-color: $yello-text;
+  color: $secondary-color;
+}
+
+@media screen and (min-width: 768px) {
+  .btn-outline {
+    margin-left: 30px;
+  }
+}

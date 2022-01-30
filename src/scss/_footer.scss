@@ -1,0 +1,18 @@
+@import "./variabels";
+footer {
+  margin-top: -3rem;
+  background-color: $secondary-color;
+  text-align: center;
+  padding: 7rem;
+  p {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
